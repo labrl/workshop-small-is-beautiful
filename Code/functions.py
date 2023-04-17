@@ -143,9 +143,9 @@ def generate_dataset():
     pointsb_values = [5,10]
     smd_values = [0,0,0,0,0,1,2,3,4,5]
 
-    #Generate 3200 graphs with varying characteristics
+    #Generate 8000 graphs with varying characteristics
     dataset = []
-    for i in range(10):
+    for i in range(25):
         for a in a_values: 
             for t in t_values: 
                 for constant in constant_values:
@@ -158,7 +158,7 @@ def generate_dataset():
                                             constant, points_a, points_b, smd]])
         
     #Randomize order of series
-    shuffled_order = np.random.choice(range(3200), 3200, replace = False)
+    shuffled_order = np.random.choice(range(8000), 8000, replace = False)
     shuffled_dataset = []
     for i in shuffled_order:
         shuffled_dataset.append(dataset[i])
