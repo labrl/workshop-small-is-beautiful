@@ -6,9 +6,9 @@ Please follow the following instructions **prior to workshop**.
 
 Download and install a Python distribution. We strongly recommend the free version (individual edition) of Anaconda available at [www.anaconda.com](https://www.anaconda.com). The steps below assume that you are using Anaconda. 
 
-## Step 2 - Downloading the Data Files 
+## Step 2 - Downloading the Functions File 
 
-You must download the files from the data folder in Github to your computer. Preferably, put all the files together in a new folder and note the location of the folder as you will need it to set your working directory. 
+You must download the "functions.py" file from the Code folder in Github to your computer. Preferably, put all the file in a new folder and note the location of the folder as you will need it to set your working directory. 
 
 ## Step 3 – Creating a New Virtual Environment
 
@@ -28,10 +28,10 @@ The last line of your Anaconda Prompt or Terminal screen should begin with "work
 
 To install the necessary packages. Run the following code sequentially. Whenever you are prompted to Proceed, press on “y” followed by the enter key: 
 ```
-conda install spyder
-conda install pandas
 conda install scikit-learn
-conda install openpyxl
+conda install pandas
+conda install spyder
+conda install matplotlib
 ```
 
 ## Step 5 – Opening Integrated Development Environment
