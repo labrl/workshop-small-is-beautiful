@@ -15,7 +15,7 @@ You must download the "functions.py" file from the Code folder in Github to your
 You need to create an environment that will have all the packages. To create the environment, write the following code Terminal (Apple or Linux) or Anaconda Prompt (Windows): 
 
 ```
-conda create -n workshop 
+conda create -n workshop python=3.9
 conda activate workshop
 ```
 From now on, you should write the following code when you open Terminal or Anaconda Prompt to ensure that you are working in the correct environment: 
