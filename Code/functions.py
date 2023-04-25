@@ -143,7 +143,7 @@ def generate_dataset():
     pointsb_values = [5,10]
     smd_values = [0,0,0,0,0,1,2,3,4,5]
 
-    #Generate 8000 graphs with varying characteristics
+    #Generate 8,000 graphs with varying characteristics
     dataset = []
     for i in range(25):
         for a in a_values: 

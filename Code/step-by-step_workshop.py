@@ -25,7 +25,7 @@ myfirstfeatures = extract_features(myfirstgraph)
 #Set random seed for replicability
 np.random.seed(48151)
 
-#Generate dataset with 1,024 graphs
+#Generate dataset with 8,000 graphs
 x, y = generate_dataset()
 
 #Split data into training and test sets
